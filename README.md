@@ -13,8 +13,11 @@ The procedure takes a root file and converts it to a txt file containing the bin
 2. Run:
 
 root
+
 .x rootToText.c("input.root","output.txt")
+
 .L formatter_TH1V_toHEPData_overlay.C
+
 FormatterTH1VtoHEPDataOverlay("output.txt","output.yaml")
 
 3. Test your output by uploading it to the HEPdata sandbox:
